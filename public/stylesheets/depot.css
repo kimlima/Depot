@@ -153,5 +153,9 @@
 }
 
 #time {
-	color: #bfb
+	color: #bfb;
+}
+
+#store .entry form, #store .entry form div {
+	display: inline;
 }

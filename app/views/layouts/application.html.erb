@@ -19,7 +19,8 @@
 			<a href="http://www.../news">News</a><br />
 			<a href="http://www.../contact">Contact</a><br /><br />
 			<div id="time">
-				<%= Time.now().strftime("%d/%m/%y %H:%M") %>
+				<%= Time.now().strftime("%d/%m/%y %H:%M") %><br />
+				<%= session[:counter] > 5 ? "Count: #{session[:counter]}": "" %>
 			</div>
 		</div>
 		<div id="main">
